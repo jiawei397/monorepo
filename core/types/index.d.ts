@@ -1,6 +1,6 @@
 import { PassThrough } from 'stream';
 
-declare module '@verdaccio/types' {
+declare module '@uino/verdaccio-types' {
   type StringValue = string | void | null;
 
   type StorageList = string[];
@@ -24,6 +24,8 @@ declare module '@verdaccio/types' {
     real_groups: string[];
     groups: string[];
     name: string | void;
+    email: string; //jw add 
+    external: boolean; //jw add
     error?: string;
   }
 

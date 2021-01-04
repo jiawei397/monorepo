@@ -1,5 +1,5 @@
 {
-  "name": "@verdaccio/types",
+  "name": "@uino/verdaccio-types",
   "version": "9.7.2",
   "description": "verdaccio types definitions",
   "keywords": [
